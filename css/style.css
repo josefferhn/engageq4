@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@1,300;1,400&family=Nunito:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+:root{
+	--color-texto:#808080;
+	--color-verde:#28d1a2;
+	--color-gris:#757575;
+	--color-blanco:#fff;
+	--color-titulos:#222;
+}
+
 body{
-	font-family: Segoe UI;
+	font-family: 'Nunito', sans-serif;
 	font-size: 14px;
 	color: #808080;
 }
@@ -57,7 +67,8 @@ header{
 }
 
 #we-are h5{
-	font-size: 14px;
+	font-family: 'Crimson Pro', serif;
+	font-size: 15px;
 	text-align: center;
 	color: #000;
 	font-style: italic;
@@ -96,7 +107,8 @@ header{
 
 
 .subtitulo{
-	font-size: 14px;
+	font-family: 'Crimson Pro', serif;
+	font-size: 16px;
 	color: #757575;
 	text-align: center;
 	margin-bottom: 40px;
@@ -121,8 +133,85 @@ header{
 }
 
 
+.social-nav i{
+	width: 28px;
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	background-color: var(--color-verde);
+	color: #fff;
+	border-radius: 100%;
+}
+.social-nav .nav-link{
+	padding-left: 10px !important;
+	padding-right: 10px !important;
+}
 
 
+
+#hero-page{
+	color: #fff;
+	text-align: center;
+}
+#hero-page h4{
+	font-size: 14px;
+	font-style: italic;
+}
+#hero-page h1{
+	font-size: 55px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+#hero-page p{
+	width: 50%;
+	margin: auto;
+	font-size: 18px;
+}
+.bg-contact{
+	background-image: url("../img/bg-contact.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.bg-about{
+	background-image: url("../img/hero-about.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	padding: 10% 0;
+}
+
+
+#contact h4{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: var(--color-titulos);
+}
+#contact p{
+	font-size: 16px;
+}
+#contact ul{
+	font-size: 16px;
+}
+
+.list-contact i{
+	color: var(--color-verde);
+	padding-right: 40px;
+}
+
+.list-social a{
+	color: #666;
+}
+.list-social a:hover{
+	color: var(--color-verde);
+}
+.list-social i{
+	font-size: 16px;
+}
 
 
 
