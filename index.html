@@ -7,6 +7,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 	
 
@@ -36,13 +37,13 @@
 					<a class="nav-link" href="index.html">Home</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">About Us</a>
+					<a class="nav-link" href="about-us.html">About Us</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="#">Team</a>
 				  </li>
 				  <li class="nav-item">
-					<a class="nav-link" href="#">Portfolio</a>
+					<a class="nav-link" href="portfolio.html">Portfolio</a>
 				  </li>
 				  <li class="nav-item">
 					<a class="nav-link" href="#">Services</a>
@@ -102,10 +103,10 @@
 	<section id="we-are" class="section">
 		<div class="container">
 			
-			<h5>Based in New York, Since 2011</h5>
-			<h2 class="titulo">We are Oshine.</h2>
+			<h5 class="wow bounceInLeft">Based in New York, Since 2011</h5>
+			<h2 class="titulo wow bounceInUp">We are Oshine.</h2>
 			
-			<p>Oshine comes with 32 unique and stunning demos. We have crafted each and every demo with extensive care and precision and the theme is power packed yet easy to use.</p>
+			<p class="wow fadeIn">Oshine comes with 32 unique and stunning demos. We have crafted each and every demo with extensive care and precision and the theme is power packed yet easy to use.</p>
 			
 			<div class="text-center">
 				<a href="#" class="btn btn-oshine">Know More</a>
@@ -124,19 +125,19 @@
 			
 			<div class="row">
 				
-				<article class="col-md-4 col-sm-12">
+				<article class="col-md-4 col-sm-12 wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0s">
 					<i class="fas fa-tools"></i>
 					<h4>Powerful Options</h4>
 					<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula.</p>
 				</article>
 				
-				<article class="col-md-4 col-sm-12">
+				<article class="col-md-4 col-sm-12 wow bounceInUp" data-wow-duration="1s" data-wow-delay="1s">
 					<i class="fas fa-pencil-ruler"></i>
 					<h4>Stunning Designs</h4>
 					<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula.</p>
 				</article>
 				
-				<article class="col-md-4 col-sm-12">
+				<article class="col-md-4 col-sm-12 wow bounceInRight" data-wow-duration="1s" data-wow-delay="1.5s">
 					<i class="far fa-newspaper"></i>
 					<h4>Page Builder</h4>
 					<p>Proin facilisis varius nunc. Curabitur eros risus, ultrices et dui ut, luctus accumsan nibh. Fusce convallis sapien placerat tellus suscipit vehicula.</p>
@@ -167,11 +168,13 @@
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script>
+  		new WOW().init();
+  	</script>
 	
 	
-	
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-CQ3J7ZF5H6"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

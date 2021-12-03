@@ -153,16 +153,19 @@ header{
 	color: #fff;
 	text-align: center;
 }
-#hero-page h4{
+#hero-page h4,
+#hero-slides h4{
 	font-size: 14px;
 	font-style: italic;
 }
-#hero-page h1{
+#hero-page h1,
+#hero-slides h1{
 	font-size: 55px;
 	font-weight: 300;
 	margin-bottom: 20px;
 }
-#hero-page p{
+#hero-page p,
+#hero-slides p{
 	width: 50%;
 	margin: auto;
 	font-size: 18px;
@@ -213,6 +216,82 @@ header{
 	font-size: 16px;
 }
 
+
+.capa-galeria{
+	position: relative;
+	overflow: hidden;
+}
+
+.capa-contenido{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-align: center;
+	display: grid;
+	align-content: center;
+	background-color: var(--color-verde);
+	color: #fff;
+	opacity: 0;
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido:hover{
+	opacity: 1;
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido:hover h5{
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido h5{
+	transform: translateY(20px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido:hover p{
+	transform: translateY(0px);
+	transition: all 0.5s ease-in-out;
+}
+.capa-contenido p{
+	transform: translateY(-20px);
+	transition: all 0.5s ease-in-out;
+}
+
+.capa-cintillo{
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+	background-color: var(--color-verde);
+	color: #fff;
+	transition: all 0.5s ease-in-out;
+}
+.capa-cintillo h5,
+.capa-cintillo p{
+	margin-bottom: 0;
+}
+
+.capa-galeria:hover .capa-cintillo{
+	background-color: #000;
+	transition: all 0.5s ease-in-out;
+}
+.capa-galeria:hover img{
+	filter: grayscale(1);
+	transition: all 0.3s ease-in-out;
+}
+
+.capa-galeria.zoom img{
+	transition: all 0.5s ease-in-out;
+}
+.capa-galeria.zoom:hover img{
+	transform: scale(1.50);
+	transition: all 0.5s ease-in-out;
+}
+
+.capa-contenido i{
+	font-size: 40px;
+	color: #fff;
+}
 
 
 

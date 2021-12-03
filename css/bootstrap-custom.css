@@ -89,7 +89,14 @@ a{
 	font-size: 20px;
 }
 
-
+.carousel-item{
+	height: 500px;
+}
+.carousel-caption{
+	display: grid !important;
+	align-content: center;
+	height: 100%;
+}
 
 
 
